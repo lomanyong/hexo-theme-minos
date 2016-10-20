@@ -8,15 +8,25 @@ menu:
   About: about
   Rss: /atom.xml
 
+# Search
+search: true
+
+# CDN
+cdn: 
+
 # Content
 excerpt_link: Read More
 toc: false #  Whether to show the table of contents in articles
 fancybox: true
 
 # Miscellaneous
+baidu_analytics:
 google_analytics:
 favicon: /favicon.png
 
 # Share
 share_jia: false
 share_addthis: true
+
+# duoshuo
+duoshuo_shortname:

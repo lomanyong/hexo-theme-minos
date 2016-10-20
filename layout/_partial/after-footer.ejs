@@ -14,11 +14,11 @@
 </script>
 <% } %>
 
-<script src="<%- url_for(config.root + 'js/jquery.min.js') %>"></script>
+<script src="<%- theme.cdn + 'js/jquery.min.js' %>"></script>
 
 <% if (theme.fancybox){ %>
-  <%- css('fancybox/jquery.fancybox') %>
-  <%- js('fancybox/jquery.fancybox.pack') %>
+  <link rel="stylesheet" href="<%- theme.cdn + 'fancybox/jquery.fancybox.css' %>">
+  <script src="<%- theme.cdn + 'fancybox/jquery.fancybox.pack.js' %>"></script>
 <% } %>
 
-<%- js('js/script') %>
+<script src="<%- theme.cdn + 'js/script.js' %>"></script>
