@@ -1,5 +1,12 @@
 # Minos
 
+### Extended Features
+- Support CDN link
+- Support Baidu analytics
+- Add search bar switch
+
+by lomanyong
+
 ### A simple and retro styled Hexo theme, concentrated more on your ideas.
 #### >> [Preview](http://ppoffice.github.io/hexo-theme-minos/)
 ![Minos - the Hexo theme](http://ppoffice.github.io/hexo-theme-minos/gallery/Minos.jpg "")
